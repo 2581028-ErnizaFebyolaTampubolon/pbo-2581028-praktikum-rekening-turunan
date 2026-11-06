@@ -1,7 +1,3 @@
-// Praktikum Bab 10 - Rekening Turunan
-// Nama : Erniza Febyola Tampubolon
-// NIM  : 2581028
-
 public class Giro extends Rekening {
     private int batasOverdraft;
 
