@@ -57,9 +57,3 @@ public class Rekening {
     }
 }
 
-//Rekening itu “rekening bank secara umum”
-// Setiap rekening punya nomor, pemilik, dan saldo, dan bisa setor, tarik, dan cetak info
-
-//Bank punya dua jenis rekening yang lebih khusus:
-//Tabungan sama seperti rekening biasa, tapi dapat bunga.
-//Giro juga sama seperti rekening biasa, tapi saldonya boleh minus sampai batas tertentu (overdraft).

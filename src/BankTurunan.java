@@ -1,19 +1,17 @@
 public class BankTurunan {
     public static void main(String[] args) {
-        System.out.println("=== Praktikum Rekening Turunan ===");
-        System.out.println("Erniza Febyola Tampubolon - 2581028");
         System.out.println();
 
         Tabungan tabungan = new Tabungan("101", "Ani", 1_000_000, 2.5);
         Giro giro = new Giro("201", "Budi", 200_000, 500_000);
 
-        System.out.println("--- Data awal ---");
+        System.out.println("--- REKENING AWAL ---");
         tabungan.cetakInfo();
         System.out.println();
         giro.cetakInfo();
         System.out.println();
 
-        System.out.println("--- Transaksi ---");
+        System.out.println("--- TRANSAKSI---");
         System.out.print("Tabungan 101 | ");
         tabungan.tarik(1_500_000);
 
@@ -31,7 +29,7 @@ public class BankTurunan {
         System.out.println("Bunga yang ditambahkan: " + Rekening.formatRupiah(bunga));
         System.out.println();
 
-        System.out.println("--- Data akhir ---");
+        System.out.println("--- REKENING AKHIR ---");
         tabungan.cetakInfo();
         System.out.println();
         giro.cetakInfo();
